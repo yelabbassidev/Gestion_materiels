@@ -166,6 +166,8 @@ return [
          * Package Service Providers...
          */
         Intervention\Image\ImageServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+
 
         /*
          * Application Service Providers...
@@ -230,6 +232,7 @@ return [
 
         'Image' => Intervention\Image\Facades\Image::class,
         Spatie\Permission\PermissionServiceProvider::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
 
     ],
