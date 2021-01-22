@@ -17,9 +17,9 @@
 
  <!-- Button trigger modal -->
  @can('user-create')
-<button type="button" class="btn btn-primary my-3 float-right" data-toggle="modal" data-target="#staticBackdrop">
-    <b>+</b>
-  </button>
+
+  <x-test-button btn_x="+"></x-test-button>
+
   @endcan
 
   <!-- Modal -->
